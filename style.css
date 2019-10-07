@@ -1,4 +1,9 @@
-.h1{
-  background-color: black;
-  color: white;
+/* MOBILE FIRST */
+@media screen and (max-width : 375px) {
+
+  .logo{
+    width: 20px;
+    height: 20px;
+  }
+
 }
