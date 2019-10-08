@@ -22,7 +22,7 @@ last update 08/10 */
   }
 
 @media screen and (min-width : 376px) {
-  
+
   header{
     height: 100px;
   }
@@ -34,7 +34,7 @@ last update 08/10 */
   h4{
     font-size: 2em;
   }
-  
+
   .student{
     width: 300px;
   }
@@ -82,7 +82,7 @@ main{
 }
 
 .description{
-  display: none;
+  /* display: none; */
 }
 
 #description{
@@ -95,4 +95,3 @@ main{
   height: 300px;
   border: none;
 }
-
