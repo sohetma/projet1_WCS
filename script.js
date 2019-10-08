@@ -1,6 +1,6 @@
-/*Commentaire */ 
-var tag = document.getElementById('description');
-var button = document.querySelector('button');
-button.addEventListener('click', function(){
-tag.classList.toggle('description');
-});
+document.querySelector('img').onclick = function() {addDescription()};
+function addDescription()
+{
+  var tag = document.getElementById('description');
+    tag.classList.toggle('description');
+}
