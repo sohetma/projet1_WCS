@@ -1,46 +1,98 @@
 /* MOBILE FIRST
 last update 08/10 */
+
 @media screen and (max-width : 375px) {
 
     header{
-      display: inline-flex;
-      justify-content: space-between;
-      align-content: center;
-      border: 5px;
-      width: 90%;
+      height: 50px;
     }
 
-    .logo{
+    .logo_container{
       width: 30px;
-      height: 30px;
-      margin-left: 20px;
-      margin-top: 15px;
+    }
+
+    h4{
+      font-size: 1em;
     }
 
     main{
-      display: flex;
-      justify-content: center;
       flex-direction: column;
-      align-items: center;
-
     }
 
-    .name{
-      display: flex;
-      text-align: center;
-    }
-
-    .description{
-      display: none;
-    }
-
-    #description{
-      text-align: center;
-    }
-
-    .button {
-      background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-      width: 300px;
-      height: 300px;
-    }
   }
+
+@media screen and (min-width : 376px) {
+  
+  header{
+    height: 100px;
+  }
+
+  .logo_container{
+    width: 60px;
+  }
+
+  h4{
+    font-size: 2em;
+  }
+  
+  .student{
+    width: 300px;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo_container{
+  margin-left: auto;
+}
+
+.logo{
+  width: 100%;
+}
+
+
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+
+.description{
+  display: none;
+}
+
+#description{
+  /*text-align: center;*/
+}
+
+.button {
+  background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+
