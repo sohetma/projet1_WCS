@@ -1,0 +1,39 @@
+/* MOBILE FIRST */
+@media screen and (max-width : 375px) {
+  
+    header{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      margin: 10px;
+    }
+  
+    .logo{
+      width: 30px;
+      height: 30px;
+    }
+   
+    main{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .name{
+      display: flex;
+      text-align: center;
+    }
+  
+    .description{
+      display: none;
+    }
+    
+    #description{
+      text-align: center;
+    }
+    
+    .button {
+      background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+      width: 300px;
+      height: 300px;
+    }
+  }
