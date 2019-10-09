@@ -1,7 +1,7 @@
 /* MOBILE FIRST
 last update 08/10 */
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 400px) {
 
     header{
       height: 50px;
@@ -9,6 +9,10 @@ last update 08/10 */
 
     .logo_container{
       width: 30px;
+    }
+
+    .student{
+      width: 100%;
     }
 
     h4{
@@ -21,22 +25,22 @@ last update 08/10 */
 
   }
 
-@media screen and (min-width : 376px) {
-
+@media screen and (min-width : 401px) and (max-width : 1200px) {
+  
   header{
-    height: 100px;
+    height: 75px;
   }
-
+  
   .logo_container{
-    width: 60px;
-  }
-
-  h4{
-    font-size: 2em;
+    width: 50px;
   }
 
   .student{
-    width: 300px;
+    width: 50%;
+  }
+
+  h4{
+    font-size: 1.5em;
   }
 
   main{
@@ -46,6 +50,30 @@ last update 08/10 */
 
 }
 
+@media screen and (min-width : 1201px) {
+
+  header{
+    height: 100px;
+  }
+
+  .logo_container{
+    width: 70px;
+  }
+
+  .student{
+    width: 33%;
+  }
+
+  h4{
+    font-size: 2em;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+}
 
 *{
   margin: 0;
@@ -67,8 +95,9 @@ header{
   width: 100%;
 }
 
-
-
+.picture{
+  width:100%;
+}
 
 main{
   display: flex;
@@ -81,8 +110,16 @@ main{
   justify-content: center;
 }
 
+.student{
+  position: relative;
+}
+
 .description{
-  /* display: none; */
+  /*position: absolute;
+  float: left;
+  top:-100%;
+  bottom: 2px;*/
+  /*display: none; */
 }
 
 #description{
