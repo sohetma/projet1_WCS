@@ -19,10 +19,17 @@ last update 08/10 */
       flex-direction: column;
     }
 
+    .vision{
+      display: none;
+      /*visibility : hidden;
+      margin : 0;
+      height : 0;*/
+    }
+
   }
 
 @media screen and (min-width : 376px) {
-  
+
   header{
     height: 100px;
   }
@@ -34,7 +41,7 @@ last update 08/10 */
   h4{
     font-size: 2em;
   }
-  
+
   .student{
     width: 300px;
   }
@@ -68,8 +75,6 @@ header{
 }
 
 
-
-
 main{
   display: flex;
   justify-content: center;
@@ -81,9 +86,6 @@ main{
   justify-content: center;
 }
 
-.description{
-  display: none;
-}
 
 .button {
   background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
@@ -94,8 +96,8 @@ main{
 
 footer{
   display: inline-flex;
-  align-items: center; 
-  justify-content: space-between;  
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   background-color: orange;
 }
