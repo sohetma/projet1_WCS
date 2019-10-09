@@ -63,6 +63,19 @@ last update 08/10 */
     flex-wrap: wrap;
   }
 
+  .vision{
+    /*display: none;*/
+    visibility : hidden;
+    margin : 0;
+    height : 0;
+  }
+
+  .on{
+    background-color: lightsalmon;
+  }
+
+
+
 }
 
 @media screen and (min-width : 1051px) {
@@ -156,11 +169,26 @@ main{
   /*text-align: center;*/
 }
 
+.area
+{
+  padding-top: 10px;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+
 .button {
   background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
   width: 300px;
   height: 300px;
   border: none;
+}
+
+.typing
+{
+  font-family: Avenir Light , sans-serif;
+  color: rgb(0,0,0);
+  font-size:large;
 }
 
 footer{
