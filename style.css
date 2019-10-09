@@ -33,7 +33,7 @@ last update 08/10 */
     }
 
     .on{
-      background-color: blue;
+      background-color: lightsalmon;
     }
 
   }
@@ -141,6 +141,15 @@ main{
   top:-100%;
   bottom: 2px;*/
   /*display: none; */
+  display: flex;
+}
+
+.desc1{
+  width: 50%;
+}
+
+.desc2{
+  width: 50%;
 }
 
 #description{
