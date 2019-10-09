@@ -1,9 +1,17 @@
-function myFunction(param) {
-  console.log(param.id);
+function myFunction(variable, param) {
+  //console.log(param.id);
   var element = document.getElementById(param.id);
-  console.log(element);
-  element.classList.toggle("vision");
+  //console.log(element);
+
+  element.classList.toggle("vision"); // apply toogle to class vision
+
+  // Scroll to the picture of id selected
+  var elem = document.getElementById(variable.id);
+  elem.scrollIntoView({ behavior: 'smooth' });
+
 }
+
+
 
 function myFunction2()
 {
@@ -11,7 +19,7 @@ function myFunction2()
 
 
   var typed = new Typed('.typing',{
-    strings: ["What?! Wilders can code this after 2 weeks only ?","Yes thanks to js, Git/Github, Odyssey, Etienne, a lot of Coffee ... and a great team ;) ","The Yearbook 2019 ! Have fun "],
+    strings: ["@wilder :~/Etienne$ What?! Wilders can code this after 2 weeks only ?  <BR /> <BR /> @wilder :~/Sydney$ WAW ! <BR />  <BR /> @wilder :~/max$  Yes thanks to js, Git/Github, Odyssey, Etienne, Coffee ... and a great team ;) ","The Yearbook 2019 ! Have fun "],
     loop:true,
     typeSpeed:35,
     backSpeed:0,
