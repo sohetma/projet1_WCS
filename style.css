@@ -249,6 +249,75 @@ align-items: center;
   color: white;
 }
 
+.imgPokemon{
+display: flex;
+width: 90px;
+}
+
+.description{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.desc1{
+display: flex;
+width: 20%;
+}
+
+.skills{
+height: 10px;
+padding-bottom: 8px;
+line-height: 26px
+}
+
+.desc2{
+display: flex;
+width: 40%;
+}
+
+.grid-container {
+display: grid;
+height: 10px;
+align-content: space-evenly;
+grid-template-columns: 10px 10px 10px 10px 10px;
+grid-gap: 20px;
+padding: 8px;
+}
+
+.grid-container div {
+text-align: center;
+padding: 8px;
+border-radius: 15px 50px 15px 50px;
+width: 10px;
+border: solid black 1px;
+background: white;
+}
+
+
+.grid-container.zero div:nth-child(-n + 0) {
+}
+
+.grid-container.one div:nth-child(-n + 1) {
+background: maroon;
+}
+
+.grid-container.two div:nth-child(-n + 2) {
+background: red;
+}
+
+.grid-container.three div:nth-child(-n + 3) {
+background: orange;
+}
+
+.grid-container.four div:nth-child(-n + 4) {
+background: yellow;
+}
+
+.grid-container.five div:nth-child(-n + 5) {
+background: green;
+}
+
 #description{
   /*text-align: center;*/
 }
