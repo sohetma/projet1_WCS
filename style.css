@@ -2,8 +2,6 @@
 last update 08/10 */
 
 
-
-
 @media screen and (max-width : 400px) {
 
     header{
@@ -44,7 +42,6 @@ last update 08/10 */
       margin-top: 10px;
     }
 
-
 /*---------- JAVASCRIPT ---------- */
 
     .vision{
@@ -60,10 +57,65 @@ last update 08/10 */
 
   }
 
-@media screen and (min-width : 401px) and (max-width : 1050px) {
 
+@media screen and (min-width : 401px) and (max-width : 600px) {
   header{
     height: 50px;
+  }
+
+  .logo_container{
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .student{
+    width: 400px;
+  }
+
+  h4{
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  main{
+    flex-direction: column;
+  }
+
+  .name{
+    font-size: 1.5em;
+  }
+
+  .area{
+    display: none;
+  }
+
+  .title{
+    height: 40px;
+    font-family: Geneva, Verdana, Taloma;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+/*---------- JAVASCRIPT ---------- */
+
+  .vision{
+    /*display: none;*/
+    visibility : hidden;
+    margin : 0;
+    height : 0;
+  }
+
+  .on{
+    background-color: lightsalmon;
+  }
+}
+
+
+@media screen and (min-width : 601px) and (max-width : 800px) {
+
+  header{
+    height: 75px;
   }
 
   h3{
@@ -76,12 +128,12 @@ last update 08/10 */
   }
 
   .logo_container{
-    width: 30px;
-    margin-right: 10px;
+    width: 50px;
+    margin-right: 30px;
   }
 
   .student{
-    width: 100%;
+    width: 50%;
   }
 
   .name{
@@ -89,23 +141,13 @@ last update 08/10 */
   }
 
   h4{
-    font-size: 1em;
-    margin-left: 10px;
+    font-size: 1.5em;
+    margin-left: 30px;
   }
 
   main{
-    flex-direction: column;
-  }
-
-  .vision{
-    /*display: none;*/
-    visibility : hidden;
-    margin : 0;
-    height : 0;
-  }
-
-  .on{
-    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 /*---------- JAVASCRIPT ---------- */
@@ -118,61 +160,25 @@ last update 08/10 */
 
   .on
   {
-    background-color: lightsalmon;
+    background-color: #f65454;
   }
 
 }
 
-@media screen and (min-width : 401px) and (max-width : 1050px) {
-
-header{
-  height: 75px;
-}
-
-h3{
-  margin-left: 15%;
-  margin-top: 10px;
-}
-
-.area{
-  display: flex;
-}
-
-.logo_container{
-  width: 50px;
-  margin-right: 30px;
-}
-
-.student{
-  width: 50%;
-}
-
-h4{
-  font-size: 1.5em;
-  margin-left: 30px;
-}
-
-main{
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-}
-
-@media screen and (min-width : 1051px) {
+@media screen and (min-width : 801px) {
 
   header{
     height: 100px;
   }
 
-h3{
-  margin-left: 15%;
-  margin-top: 10px;
-}
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
 
-.area{
-  display: flex;
-}
+  .area{
+    display: flex;
+  }
 
   .logo_container{
     width: 70px;
