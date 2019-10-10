@@ -326,46 +326,41 @@ main{
 }
 
 .imgPokemon{
-  width: 90px;
-  position: relative;
-  left: 75%;
-  margin-top: 70%;
+  width: 40%;
+  margin-top: 30%;
 }
 
 .description{
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  width: 90%;
+  width: 100%;
   font-weight: 100;
-  margin-top: 10%;
 }
 
 .desc1{
   display: flex;
   width: 20%;
-  margin-right: 100px;
-  text-align: right;
   color: white;
+  margin-top: 10%;
 }
 
-.desc1 div {
-  margin-top: 11px;
+.desc1 div{
+  margin-top: 5%;
 }
 
-.skills{
-  padding-bottom: 8px;
-  line-height: 26px
+.deskTitle{
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
 }
 
-.desc2{
-  display: flex;
-  width: 40%;
-  color: white;
+.age{
+  margin-left: 4%;
 }
 
-.desc2 ul div{
-  margin-top: 10px;
+.previously{
+  margin-left: 4%;
+  margin-bottom: 20%;
 }
 
 .grid-container{
@@ -375,6 +370,7 @@ main{
   grid-template-columns: 10px 10px 10px 10px 10px;
   grid-gap: 20px;
   padding: 8px;
+  margin-bottom: 10%;
 }
 
 .grid-container div{
@@ -382,7 +378,7 @@ main{
   padding: 8px;
   border-radius: 15px 50px 15px 50px;
   width: 10px;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: inset 2px 2px 2px black;
   background: white;
 }
 
