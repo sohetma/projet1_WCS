@@ -20,7 +20,7 @@ last update 08/10 */
     }
 
     h4{
-      font-size: 0.8em;
+      font-size: 1em;
       margin-left: 10px;
     }
 
@@ -161,9 +161,9 @@ main{
 
 @media screen and (min-width : 1051px) {
 
-header{
-  height: 100px;
-}
+  header{
+    height: 100px;
+  }
 
 h3{
   margin-left: 15%;
@@ -188,10 +188,28 @@ h3{
     margin-left: 50px;
   }
 
-main{
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .grid-container {
+    /*display: grid;*/
+    height: 5px;
+    /*align-content: space-evenly;*/
+    grid-template-columns: 5px 5px 5px 5px 5px;
+    grid-gap: 10px;
+    padding: 4px;
+  }
+
+  .grid-container div {
+    /*text-align: center;*/
+    padding: 4px;
+    border-radius: 15px 50px 15px 50px;
+    width: 5px;
+    /*border: solid black 1px;
+    background: rgba(255, 255, 255, 0);*/
+  }
 
 /*---------- HOVER ---------- */
 
@@ -208,6 +226,7 @@ main{
     transform: scale(0,1);
     transition-property: transform;
     transition-duration: 0.5s;
+    width: 150px;
   }
 
   .student:hover .description .imgPokemon{
@@ -221,8 +240,6 @@ main{
 
   .name{
     font-size: 2.5em;
-    transition-property: color;
-    transition-duration: 0.3s;
   }
 
   .description{
@@ -232,6 +249,7 @@ main{
     padding: 5px;
     transition-property: opacity;
     transition-duration: 0.5s;
+    font-size: 1em;
   }
 
   .student:hover .description{
@@ -240,10 +258,6 @@ main{
 
   .student:hover section .picture{
     opacity: 0.2;
-  }
-
-  .student:hover .profile .name{
-    color: #f65454;
   }
 
 }
@@ -257,10 +271,10 @@ main{
 }
 
 header{
-display: flex;
-align-items: center;
-width: 100%;
-background-color: #f65454;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f65454;
 }
 
 h4{
@@ -452,9 +466,9 @@ footer p{
 }
 
 .logo2 {
-display: inline-flex;
-width: 40px;
-height: 40px;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
 }
 
 .footerlinks{
