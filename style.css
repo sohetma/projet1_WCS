@@ -4,6 +4,25 @@ last update 08/10 */
 
 @media screen and (max-width : 400px) {
 
+
+    .desc1{
+      margin-top: 3%;
+      font-size: 0.8em;
+    }
+    
+    .desc1 div{
+      margin-top: 3%;
+    }
+    
+    .previously{
+      margin-bottom: 10%;
+    }
+    
+    .imgPokemon{
+      margin-top: 20%;
+    }
+
+
     header{
       height: 50px;
     }
@@ -53,13 +72,32 @@ last update 08/10 */
     }
 
     .on{
-      background-color: lightsalmon;
+      background-color: rgba(0,0,0,0.5);
     }
 
   }
 
 
-@media screen and (min-width : 401px) and (max-width : 600px) {
+@media screen and (min-width : 401px) and (max-width : 700px) {
+  
+  .desc1{
+    margin-top: 3%;
+    font-size: 0.8em;
+  }
+  
+  .desc1 div{
+    margin-top: 3%;
+  }
+  
+  .previously{
+    margin-bottom: 10%;
+  }
+  
+  .imgPokemon{
+    margin-top: 20%;
+  }
+  
+  
   header{
     height: 50px;
   }
@@ -120,12 +158,31 @@ last update 08/10 */
   }
 
   .on{
-    background-color: lightsalmon;
+    background-color: rgba(0,0,0,0.5);
   }
 }
 
 
-@media screen and (min-width : 601px) and (max-width : 800px) {
+@media screen and (min-width : 701px) and (max-width : 1050px) {
+
+.desc1{
+  margin-top: 5%;
+  font-size: 0.8em;
+}
+
+.desc1 div{
+  margin-top: 3%;
+}
+
+.previously{
+  margin-bottom: 10%;
+}
+
+.imgPokemon{
+  margin-top: 15%;
+}
+
+
 
 .title{
   height: 60px;
@@ -176,12 +233,36 @@ last update 08/10 */
 
   .on
   {
-    background-color: #f65454;
+    background-color: rgba(0,0,0,0.5);
   }
 
 }
 
-@media screen and (min-width : 801px) {
+
+
+
+
+@media screen and (min-width : 1051px) and (max-width : 1440px) {
+
+
+  .desc1{
+    margin-top: 8%;
+    font-size: 0.9em;
+  }
+
+  .desc1 div{
+    margin-top: 3%;
+  }
+
+  .previously{
+    margin-bottom: 10%;
+  }
+
+  .imgPokemon{
+    margin-top: 30%;
+  }
+
+
 
   header{
     height: 100px;
@@ -215,22 +296,111 @@ last update 08/10 */
     flex-wrap: wrap;
   }
 
-  .grid-container {
-    /*display: grid;*/
-    height: 5px;
-    /*align-content: space-evenly;*/
-    grid-template-columns: 5px 5px 5px 5px 5px;
-    grid-gap: 10px;
-    padding: 4px;
+  .name{
+    font-size: 2em;
   }
 
-  .grid-container div {
-    /*text-align: center;*/
-    padding: 4px;
-    border-radius: 15px 50px 15px 50px;
-    width: 5px;
-    /*border: solid black 1px;
-    background: rgba(255, 255, 255, 0);*/
+/*---------- HOVER ---------- */
+
+  .student{
+    position: relative;
+  }
+
+  .profile{
+    background-color:#f65454;
+  }
+
+  .imgPokemon{
+    transform-origin: top left;
+    transform: scale(0,1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    width: 150px;
+  }
+
+  .student:hover .description .imgPokemon{
+    transform: scale(1,1);
+  }
+
+  .picture{
+    transition-property: opacity;
+    transition-duration: 0.5s;
+  }
+
+  .description{
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    padding: 5px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    font-size: 1em;
+  }
+
+  .student:hover .description{
+    opacity: 1;
+  }
+
+  .student:hover section .picture{
+    opacity: 0.2;
+  }
+
+}
+
+
+@media screen and (min-width : 1441px) {
+
+
+  .desc1{
+    margin-top: 8%;
+    font-size: 1.1em;
+  }
+
+  .desc1 div{
+    margin-top: 5%;
+  }
+
+  .previously{
+    margin-bottom: 20%;
+  }
+
+  .imgPokemon{
+    margin-top: 30%;
+  }
+
+
+
+
+  header{
+    height: 100px;
+  }
+
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: flex;
+  }
+
+  .logo_container{
+    width: 70px;
+    margin-right: 50px;
+  }
+
+  .student{
+    width: 33.33%;
+  }
+
+  h4{
+    font-size: 2em;
+    margin-left: 50px;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 /*---------- HOVER ---------- */
@@ -283,7 +453,6 @@ last update 08/10 */
   }
 
 }
-
 
 
 *{
@@ -348,8 +517,7 @@ main{
 }
 
 .imgPokemon{
-  width: 40%;
-  margin-top: 30%;
+  width: 35%;
 }
 
 .description{
@@ -362,13 +530,12 @@ main{
 
 .desc1{
   display: flex;
-  width: 20%;
+  width: 45%;
   color: white;
-  margin-top: 10%;
 }
 
 .desc1 div{
-  margin-top: 5%;
+  /*margin-top: 5%;*/
 }
 
 .deskTitle{
@@ -382,7 +549,7 @@ main{
 
 .previously{
   margin-left: 4%;
-  margin-bottom: 20%;
+  /*margin-bottom: 20%;*/
 }
 
 .grid-container{
@@ -393,6 +560,7 @@ main{
   grid-gap: 20px;
   padding: 8px;
   margin-bottom: 10%;
+  box-sizing: border-box;
 }
 
 .grid-container div{
