@@ -1,6 +1,9 @@
 /* MOBILE FIRST
 last update 08/10 */
 
+
+
+
 @media screen and (max-width : 400px) {
 
     header{
@@ -29,6 +32,19 @@ last update 08/10 */
       font-size: 1.5em;
     }
 
+    .area{
+      display: none;
+    }
+
+    .title{
+      height: 40px;
+      font-family: Geneva, Verdana, Taloma;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+
 /*---------- JAVASCRIPT ---------- */
 
     .vision{
@@ -48,6 +64,15 @@ last update 08/10 */
 
   header{
     height: 50px;
+  }
+
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: flex;
   }
 
   .logo_container{
@@ -104,6 +129,15 @@ header{
   height: 75px;
 }
 
+h3{
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.area{
+  display: flex;
+}
+
 .logo_container{
   width: 50px;
   margin-right: 30px;
@@ -130,6 +164,15 @@ main{
   header{
     height: 100px;
   }
+
+h3{
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.area{
+  display: flex;
+}
 
   .logo_container{
     width: 70px;
@@ -183,7 +226,7 @@ main{
     transform: scale(0,1);
     transition-property: transform;
     transition-duration: 0.5s;
-    width: 90px;
+    width: 150px;
   }
 
   .student:hover .description .imgPokemon{
@@ -197,8 +240,6 @@ main{
 
   .name{
     font-size: 2.5em;
-    transition-property: color;
-    transition-duration: 0.3s;
   }
 
   .description{
@@ -217,10 +258,6 @@ main{
 
   .student:hover section .picture{
     opacity: 0.2;
-  }
-
-  .student:hover .profile .name{
-    color: #f65454;
   }
 
 }
@@ -360,10 +397,6 @@ main{
   /*text-align: center;*/
 }
 
-h3{
-  margin-left: 15%;
-  margin-top: 10px;
-}
 
 .area
 {
@@ -371,7 +404,6 @@ h3{
   height: 220px;
   width: 100%;
   background-color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
