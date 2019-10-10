@@ -198,27 +198,28 @@ main{
 
 
 *{
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
-display: flex;
-align-items: center;
-width: 100%;
-background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: lightsalmon;
 }
 
 main{
-width: 100%;
+  width: 100%;
 }
 
 .logo_container{
-margin-left: auto;
+  margin-left: auto;
 }
 
 .logo{
-width: 100%;
+  width: 100%;
 }
 
 .profile{
@@ -231,9 +232,9 @@ width: 100%;
 }
 
 main{
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
@@ -250,72 +251,88 @@ align-items: center;
 }
 
 .imgPokemon{
-display: flex;
-width: 90px;
+  width: 90px;
+  position: relative;
+  left: 75%;
+  margin-top: 70%;
 }
 
 .description{
-display: flex;
-justify-content: space-around;
-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 90%;
+  font-weight: 100;
+  margin-top: 10%;
 }
 
 .desc1{
-display: flex;
-width: 20%;
+  display: flex;
+  width: 20%;
+  margin-right: 100px;
+  text-align: right;
+  color: white;
+}
+
+.desc1 div {
+  margin-top: 11px;
 }
 
 .skills{
-height: 10px;
-padding-bottom: 8px;
-line-height: 26px
+  padding-bottom: 8px;
+  line-height: 26px
 }
 
 .desc2{
-display: flex;
-width: 40%;
+  display: flex;
+  width: 40%;
+  color: white;
 }
 
-.grid-container {
-display: grid;
-height: 10px;
-align-content: space-evenly;
-grid-template-columns: 10px 10px 10px 10px 10px;
-grid-gap: 20px;
-padding: 8px;
+.desc2 ul div{
+  margin-top: 10px;
 }
 
-.grid-container div {
-text-align: center;
-padding: 8px;
-border-radius: 15px 50px 15px 50px;
-width: 10px;
-border: solid black 1px;
-background: white;
+.grid-container{
+  display: grid;
+  height: 10px;
+  align-content: space-evenly;
+  grid-template-columns: 10px 10px 10px 10px 10px;
+  grid-gap: 20px;
+  padding: 8px;
+}
+
+.grid-container div{
+  text-align: center;
+  padding: 8px;
+  border-radius: 15px 50px 15px 50px;
+  width: 10px;
+  box-shadow: 5px 5px 5px black;
+  background: white;
 }
 
 
-.grid-container.zero div:nth-child(-n + 0) {
+.grid-container.zero div:nth-child(-n + 0){
 }
 
-.grid-container.one div:nth-child(-n + 1) {
-background: maroon;
+.grid-container.one div:nth-child(-n + 1){
+  background: maroon;
 }
 
-.grid-container.two div:nth-child(-n + 2) {
-background: red;
+.grid-container.two div:nth-child(-n + 2){
+  background: red;
 }
 
-.grid-container.three div:nth-child(-n + 3) {
-background: orange;
+.grid-container.three div:nth-child(-n + 3){
+  background: orange;
 }
 
-.grid-container.four div:nth-child(-n + 4) {
-background: yellow;
+.grid-container.four div:nth-child(-n + 4){
+  background: yellow;
 }
 
-.grid-container.five div:nth-child(-n + 5) {
-background: green;
+.grid-container.five div:nth-child(-n + 5){
+  background: green;
 }
 
 #description{
@@ -327,8 +344,7 @@ h3{
   margin-top: 10px;
 }
 
-.area
-{
+.area{
   padding-top: 10px;
   height: 220px;
   width: 100%;
@@ -338,30 +354,27 @@ h3{
   align-items: center;
 }
 
-.terminal
-{
+.terminal{
   height: 70%;
   width: 70%;
   background-color: rgb(64,64,64);
   border-radius: 5px;
 }
 
-.mr-front-heading
-{
+.mr-front-heading{
   margin-top: 15px;
   margin-left: 15px;
   /*text-align: center;*/
 }
 
-.button {
-background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-width: 300px;
-height: 300px;
-border: none;
+.button{
+  background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  width: 300px;
+  height: 300px;
+  border: none;
 }
 
-.typing
-{
+.typing{
   margin-top: 50px;
   font-family: Avenir Light , sans-serif;
   color: white; /*rgb(51,113,255);*/
@@ -379,22 +392,23 @@ footer{
 }
 
 footer p{
-display: inline-flex;
-margin: 10px;
-}
-.logo2 {
-display: inline-flex;
-width: 40px;
-height: 40px;
+  display: inline-flex;
+  margin: 10px;
 }
 
-.footerlinks {
-display: inline-flex;
-align-items: center;
+.logo2{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
 }
 
-.logogithub {
-display: inline-flex;
-width: 50px;
-height: 50px;
+.footerlinks{
+  display: inline-flex;
+  align-items: center;
+}
+
+.logogithub{
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
 }
