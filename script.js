@@ -19,7 +19,7 @@ function myFunction2()
 
 
   var typed = new Typed('.typing',{
-    strings: ["@wilder :~/Etienne$ What?! Wilders can code this after 2 weeks only ?  <BR /> <BR /> @wilder :~/Sydney$ WAW ! <BR />  <BR /> @wilder :~/max$  Yes thanks to js, Git/Github, Odyssey, Etienne, Coffee ... and a great team ;) ","The Yearbook 2019 ! Have fun "],
+    strings: ["<span> @wilder :~/Etienne$</span> What?! Wilders can code this after 2 weeks only ?  <BR /> <BR /> <span>@wilder :~/Sydney$</span> WAW ! <BR />  <BR /> <span>@wilder :~/max$</span>  Yes thanks to js, Git/Github, Odyssey, Etienne, Coffee ... and a great team ;) ","The Yearbook 2019 ! Have fun "],
     loop:true,
     typeSpeed:35,
     backSpeed:0,
