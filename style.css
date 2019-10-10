@@ -1,6 +1,9 @@
 /* MOBILE FIRST
 last update 08/10 */
 
+
+
+
 @media screen and (max-width : 400px) {
 
     header{
@@ -29,6 +32,19 @@ last update 08/10 */
       font-size: 1.5em;
     }
 
+    .area{
+      display: none;
+    }
+
+    .title{
+      height: 40px;
+      font-family: Geneva, Verdana, Taloma;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+
 /*---------- JAVASCRIPT ---------- */
 
     .vision{
@@ -48,6 +64,15 @@ last update 08/10 */
 
   header{
     height: 50px;
+  }
+
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: flex;
   }
 
   .logo_container{
@@ -104,6 +129,15 @@ header{
   height: 75px;
 }
 
+h3{
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.area{
+  display: flex;
+}
+
 .logo_container{
   width: 50px;
   margin-right: 30px;
@@ -129,6 +163,15 @@ main{
 
 header{
   height: 100px;
+}
+
+h3{
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.area{
+  display: flex;
 }
 
   .logo_container{
@@ -157,7 +200,18 @@ main{
   }
 
   .profile{
-    background-color:lightsalmon;
+    background-color:#f65454;
+  }
+
+  .imgPokemon{
+    transform-origin: top left;
+    transform: scale(0,1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+
+  .student:hover .description .imgPokemon{
+    transform: scale(1,1);
   }
 
   .picture{
@@ -168,7 +222,7 @@ main{
   .name{
     font-size: 2.5em;
     transition-property: color;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
   }
 
   .description{
@@ -178,7 +232,6 @@ main{
     padding: 5px;
     transition-property: opacity;
     transition-duration: 0.5s;
-    z-index: 1;
   }
 
   .student:hover .description{
@@ -190,7 +243,7 @@ main{
   }
 
   .student:hover .profile .name{
-    color: lightsalmon;
+    color: #f65454;
   }
 
 }
@@ -204,10 +257,14 @@ main{
 }
 
 header{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background-color: lightsalmon;
+display: flex;
+align-items: center;
+width: 100%;
+background-color: #f65454;
+}
+
+h4{
+  color:white;
 }
 
 main{
@@ -245,9 +302,13 @@ main{
   z-index: 2;
   bottom: 0%;
 
+  margin-left: 10px;
+  margin-bottom: 5px;
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .imgPokemon{
@@ -339,17 +400,12 @@ main{
   /*text-align: center;*/
 }
 
-h3{
-  margin-left: 15%;
-  margin-top: 10px;
-}
 
 .area{
   padding-top: 10px;
   height: 220px;
   width: 100%;
   background-color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -387,8 +443,7 @@ footer{
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: lightsalmon;
-  margin-top: 20px;
+  background-color: #f65454;
 }
 
 footer p{
@@ -396,10 +451,10 @@ footer p{
   margin: 10px;
 }
 
-.logo2{
-  display: inline-flex;
-  width: 40px;
-  height: 40px;
+.logo2 {
+display: inline-flex;
+width: 40px;
+height: 40px;
 }
 
 .footerlinks{
