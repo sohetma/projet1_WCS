@@ -2,8 +2,6 @@
 last update 08/10 */
 
 
-
-
 @media screen and (max-width : 400px) {
 
     header{
@@ -45,7 +43,6 @@ last update 08/10 */
       font-size: 15px;
     }
 
-
 /*---------- JAVASCRIPT ---------- */
 
     .vision{
@@ -61,8 +58,8 @@ last update 08/10 */
 
   }
 
-@media screen and (min-width : 401px) and (max-width : 1050px) {
 
+@media screen and (min-width : 401px) and (max-width : 600px) {
   header{
     height: 50px;
   }
@@ -85,11 +82,7 @@ last update 08/10 */
   }
 
   .student{
-    width: 100%;
-  }
-
-  .name{
-    font-size: 2em;
+    width: 400px;
   }
 
   h4{
@@ -101,6 +94,24 @@ last update 08/10 */
     flex-direction: column;
   }
 
+  .name{
+    font-size: 1.5em;
+  }
+
+  .area{
+    display: none;
+  }
+
+  .title{
+    height: 40px;
+    font-family: Geneva, Verdana, Taloma;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+/*---------- JAVASCRIPT ---------- */
+
   .vision{
     /*display: none;*/
     visibility : hidden;
@@ -109,29 +120,12 @@ last update 08/10 */
   }
 
   .on{
-    background-color: blue;
-  }
-
-/*---------- JAVASCRIPT ---------- */
-
-  .vision{
-    visibility : hidden;
-    margin : 0;
-    height : 0;
-  }
-
-  .on
-  {
     background-color: lightsalmon;
   }
-
 }
 
-@media screen and (min-width : 401px) and (max-width : 1050px) {
 
-header{
-  height: 75px;
-}
+@media screen and (min-width : 601px) and (max-width : 800px) {
 
 .title{
   height: 60px;
@@ -145,41 +139,62 @@ header{
   display: none;
 }
 
-.logo_container{
-  width: 50px;
-  margin-right: 30px;
+  .area{
+    display: flex;
+  }
+
+  .logo_container{
+    width: 50px;
+    margin-right: 30px;
+  }
+
+  .student{
+    width: 50%;
+  }
+
+  .name{
+    font-size: 2em;
+  }
+
+  h4{
+    font-size: 1.5em;
+    margin-left: 30px;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+/*---------- JAVASCRIPT ---------- */
+
+  .vision{
+    visibility : hidden;
+    margin : 0;
+    height : 0;
+  }
+
+  .on
+  {
+    background-color: #f65454;
+  }
+
 }
 
-.student{
-  width: 50%;
-}
-
-h4{
-  font-size: 1.5em;
-  margin-left: 30px;
-}
-
-main{
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-}
-
-@media screen and (min-width : 1051px) {
+@media screen and (min-width : 801px) {
 
   header{
     height: 100px;
   }
 
-h3{
-  margin-left: 15%;
-  margin-top: 10px;
-}
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
 
-.area{
-  display: flex;
-}
+  .area{
+    display: flex;
+  }
 
   .logo_container{
     width: 70px;
