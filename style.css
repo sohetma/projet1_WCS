@@ -17,7 +17,7 @@ last update 08/10 */
     }
 
     h4{
-      font-size: 0.8em;
+      font-size: 1em;
       margin-left: 10px;
     }
 
@@ -127,9 +127,9 @@ main{
 
 @media screen and (min-width : 1051px) {
 
-header{
-  height: 100px;
-}
+  header{
+    height: 100px;
+  }
 
   .logo_container{
     width: 70px;
@@ -145,10 +145,28 @@ header{
     margin-left: 50px;
   }
 
-main{
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .grid-container {
+    /*display: grid;*/
+    height: 5px;
+    /*align-content: space-evenly;*/
+    grid-template-columns: 5px 5px 5px 5px 5px;
+    grid-gap: 10px;
+    padding: 4px;
+  }
+
+  .grid-container div {
+    /*text-align: center;*/
+    padding: 4px;
+    border-radius: 15px 50px 15px 50px;
+    width: 5px;
+    /*border: solid black 1px;
+    background: rgba(255, 255, 255, 0);*/
+  }
 
 /*---------- HOVER ---------- */
 
@@ -165,6 +183,7 @@ main{
     transform: scale(0,1);
     transition-property: transform;
     transition-duration: 0.5s;
+    width: 90px;
   }
 
   .student:hover .description .imgPokemon{
@@ -189,6 +208,7 @@ main{
     padding: 5px;
     transition-property: opacity;
     transition-duration: 0.5s;
+    font-size: 1em;
   }
 
   .student:hover .description{
@@ -208,15 +228,15 @@ main{
 
 
 *{
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header{
-display: flex;
-align-items: center;
-width: 100%;
-background-color: #f65454;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f65454;
 }
 
 h4{
@@ -224,15 +244,15 @@ h4{
 }
 
 main{
-width: 100%;
+  width: 100%;
 }
 
 .logo_container{
-margin-left: auto;
+  margin-left: auto;
 }
 
 .logo{
-width: 100%;
+  width: 100%;
 }
 
 .profile{
@@ -245,9 +265,9 @@ width: 100%;
 }
 
 main{
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
@@ -267,49 +287,49 @@ align-items: center;
   text-shadow: 1px 1px 2px black;
 }
 
-.imgPokemon{
+/*.imgPokemon{
   display: flex;
   width: 90px;
-}
+}*/
 
 .description{
-display: flex;
-justify-content: space-around;
-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .desc1{
-display: flex;
-width: 20%;
+  display: flex;
+  width: 20%;
 }
 
 .skills{
-height: 10px;
-padding-bottom: 8px;
-line-height: 26px
+  height: 10px;
+  padding-bottom: 8px;
+  line-height: 26px
 }
 
 .desc2{
-display: flex;
-width: 40%;
+  display: flex;
+  width: 40%;
 }
 
 .grid-container {
-display: grid;
-height: 10px;
-align-content: space-evenly;
-grid-template-columns: 10px 10px 10px 10px 10px;
-grid-gap: 20px;
-padding: 8px;
+  display: grid;
+  /*height: 10px;*/
+  align-content: space-evenly;
+  /*grid-template-columns: 10px 10px 10px 10px 10px;
+  grid-gap: 20px;
+  padding: 8px;*/
 }
 
 .grid-container div {
-text-align: center;
-padding: 8px;
-border-radius: 15px 50px 15px 50px;
-width: 10px;
-border: solid black 1px;
-background: rgba(255, 255, 255, 0);
+  text-align: center;
+  /*padding: 8px;
+  border-radius: 15px 50px 15px 50px;
+  width: 10px;*/
+  border: solid black 1px;
+  background: rgba(255, 255, 255, 0);
 }
 
 
@@ -317,23 +337,23 @@ background: rgba(255, 255, 255, 0);
 }
 
 .grid-container.one div:nth-child(-n + 1) {
-background: maroon;
+  background: maroon;
 }
 
 .grid-container.two div:nth-child(-n + 2) {
-background: red;
+  background: red;
 }
 
 .grid-container.three div:nth-child(-n + 3) {
-background: orange;
+  background: orange;
 }
 
 .grid-container.four div:nth-child(-n + 4) {
-background: yellow;
+  background: yellow;
 }
 
 .grid-container.five div:nth-child(-n + 5) {
-background: green;
+  background: green;
 }
 
 #description{
@@ -372,10 +392,10 @@ h3{
 }
 
 .button {
-background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-width: 300px;
-height: 300px;
-border: none;
+  background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  width: 300px;
+  height: 300px;
+  border: none;
 }
 
 .typing
@@ -396,23 +416,23 @@ footer{
 }
 
 footer p{
-display: inline-flex;
-margin: 10px;
+  display: inline-flex;
+  margin: 10px;
 }
 
 .logo2 {
-display: inline-flex;
-width: 40px;
-height: 40px;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
 }
 
 .footerlinks {
-display: inline-flex;
-align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 
 .logogithub {
-display: inline-flex;
-width: 50px;
-height: 50px;
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
 }
