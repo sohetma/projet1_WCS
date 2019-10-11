@@ -6,8 +6,9 @@ last update 08/10 */
 
 
     .desc1{
-      margin-top: 3%;
+      margin-top: 10%;
       font-size: 0.8em;
+      margin-bottom: 10%;
     }
     
     .desc1 div{
@@ -19,9 +20,8 @@ last update 08/10 */
     }
     
     .imgPokemon{
-      margin-top: 20%;
+      margin-top: 23%;
     }
-
 
     header{
       height: 50px;
@@ -36,6 +36,18 @@ last update 08/10 */
       width: 100%;
     }
 
+    .picture{
+      box-shadow: 4px 4px 4px black;
+    }
+
+    .button_plus{
+      width: 10%;
+      position: absolute;
+      z-index: 2;
+      bottom: 2%;
+      right: 2%;
+    }
+
     h4{
       font-size: 1em;
       margin-left: 10px;
@@ -44,6 +56,7 @@ last update 08/10 */
     main{
       flex-direction: column;
     }
+  
 
     .name{
       font-size: 1.5em;
@@ -72,7 +85,7 @@ last update 08/10 */
     }
 
     .on{
-      background-color: rgba(0,0,0,0.5);
+      background-color:rgba(246,84,84,1);
     }
 
   }
@@ -94,7 +107,7 @@ last update 08/10 */
   }
   
   .imgPokemon{
-    margin-top: 20%;
+    margin-top: 23%;
   }
   
   
@@ -121,6 +134,18 @@ last update 08/10 */
 
   .student{
     width: 400px;
+  }
+
+  .picture{
+    box-shadow: 4px 4px 4px black;
+  }
+
+  .button_plus{
+    width: 10%;
+    position: absolute;
+    z-index: 2;
+    bottom: 2%;
+    right: 2%;
   }
 
   h4{
@@ -158,46 +183,52 @@ last update 08/10 */
   }
 
   .on{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(246,84,84,1);
   }
 }
 
 
 @media screen and (min-width : 701px) and (max-width : 1050px) {
 
-.desc1{
-  margin-top: 5%;
-  font-size: 0.8em;
-}
+  .desc1{
+    margin-top: 5%;
+    font-size: 0.8em;
+  }
 
-.desc1 div{
-  margin-top: 3%;
-}
+  .desc1 div{
+    margin-top: 3%;
+  }
 
-.previously{
-  margin-bottom: 10%;
-}
+  .previously{
+    margin-bottom: 10%;
+  }
 
-.imgPokemon{
-  margin-top: 15%;
-}
+  .imgPokemon{
+    margin-top: 15%;
+  }
 
+  .picture{
+    box-shadow: 4px 4px 4px black;
+  }
 
+  .button_plus{
+    width: 10%;
+    position: absolute;
+    z-index: 2;
+    bottom: 2%;
+    right: 2%;
+  }
 
-.title{
-  height: 60px;
-  margin-top: 25px;
-  width: 100%;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.area{
-  display: none;
-}
+  .title{
+    height: 60px;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
 
   .area{
-    display: flex;
+    display: none;
   }
 
   .logo_container{
@@ -223,7 +254,7 @@ last update 08/10 */
     flex-wrap: wrap;
   }
 
-/*---------- JAVASCRIPT ---------- */
+  /*---------- JAVASCRIPT ---------- */
 
   .vision{
     visibility : hidden;
@@ -233,9 +264,8 @@ last update 08/10 */
 
   .on
   {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(246,84,84,1);
   }
-
 }
 
 
@@ -262,7 +292,9 @@ last update 08/10 */
     margin-top: 30%;
   }
 
-
+  .button_plus{
+    display: none;
+  }
 
   header{
     height: 100px;
@@ -368,8 +400,9 @@ last update 08/10 */
     margin-top: 30%;
   }
 
-
-
+  .button_plus{
+    display: none;
+  }
 
   header{
     height: 100px;
