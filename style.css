@@ -1,0 +1,706 @@
+/* MOBILE FIRST
+last update 08/10 */
+
+
+@media screen and (max-width : 400px) {
+
+
+    .desc1{
+      margin-top: 10%;
+      font-size: 0.8em;
+      margin-bottom: 10%;
+    }
+    
+    .desc1 div{
+      margin-top: 3%;
+    }
+    
+    .previously{
+      margin-bottom: 10%;
+    }
+    
+    .imgPokemon{
+      margin-top: 23%;
+    }
+
+    header{
+      height: 50px;
+    }
+
+    .logo_container{
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .student{
+      width: 100%;
+    }
+
+    .picture{
+      box-shadow: 4px 4px 4px black;
+    }
+
+    .button_plus{
+      width: 10%;
+      position: absolute;
+      z-index: 2;
+      bottom: 2%;
+      right: 2%;
+    }
+
+    h4{
+      font-size: 1em;
+      margin-left: 10px;
+    }
+
+    main{
+      flex-direction: column;
+    }
+  
+
+    .name{
+      font-size: 1.5em;
+    }
+
+    .area{
+      display: none;
+    }
+
+    .title{
+      height: 40px;
+      font-family: Geneva, Verdana, Taloma;
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+/*---------- JAVASCRIPT ---------- */
+
+    .vision{
+      /*display: none;*/
+      visibility : hidden;
+      margin : 0;
+      height : 0;
+    }
+
+    .on{
+      background-color:rgba(246,84,84,1);
+    }
+
+  }
+
+
+@media screen and (min-width : 401px) and (max-width : 700px) {
+  
+  .desc1{
+    margin-top: 3%;
+    font-size: 0.8em;
+  }
+  
+  .desc1 div{
+    margin-top: 3%;
+  }
+  
+  .previously{
+    margin-bottom: 10%;
+  }
+  
+  .imgPokemon{
+    margin-top: 23%;
+  }
+  
+  
+  header{
+    height: 50px;
+  }
+
+  .title{
+    height: 60px;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: none;
+  }
+
+  .logo_container{
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .student{
+    width: 400px;
+  }
+
+  .picture{
+    box-shadow: 4px 4px 4px black;
+  }
+
+  .button_plus{
+    width: 10%;
+    position: absolute;
+    z-index: 2;
+    bottom: 2%;
+    right: 2%;
+  }
+
+  h4{
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  main{
+    flex-direction: column;
+  }
+
+  .name{
+    font-size: 1.5em;
+  }
+
+  .area{
+    display: none;
+  }
+
+  .title{
+    height: 40px;
+    font-family: Geneva, Verdana, Taloma;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+/*---------- JAVASCRIPT ---------- */
+
+  .vision{
+    /*display: none;*/
+    visibility : hidden;
+    margin : 0;
+    height : 0;
+  }
+
+  .on{
+    background-color: rgba(246,84,84,1);
+  }
+}
+
+
+@media screen and (min-width : 701px) and (max-width : 1050px) {
+
+  .desc1{
+    margin-top: 5%;
+    font-size: 0.8em;
+  }
+
+  .desc1 div{
+    margin-top: 3%;
+  }
+
+  .previously{
+    margin-bottom: 10%;
+  }
+
+  .imgPokemon{
+    margin-top: 15%;
+  }
+
+  .picture{
+    box-shadow: 4px 4px 4px black;
+  }
+
+  .button_plus{
+    width: 10%;
+    position: absolute;
+    z-index: 2;
+    bottom: 2%;
+    right: 2%;
+  }
+
+  .title{
+    height: 60px;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: none;
+  }
+
+  .logo_container{
+    width: 50px;
+    margin-right: 30px;
+  }
+
+  .student{
+    width: 50%;
+  }
+
+  .name{
+    font-size: 2em;
+  }
+
+  h4{
+    font-size: 1.5em;
+    margin-left: 30px;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /*---------- JAVASCRIPT ---------- */
+
+  .vision{
+    visibility : hidden;
+    margin : 0;
+    height : 0;
+  }
+
+  .on
+  {
+    background-color: rgba(246,84,84,1);
+  }
+}
+
+
+
+
+
+@media screen and (min-width : 1051px) and (max-width : 1440px) {
+
+
+  .desc1{
+    margin-top: 8%;
+    font-size: 0.9em;
+  }
+
+  .desc1 div{
+    margin-top: 3%;
+  }
+
+  .previously{
+    margin-bottom: 10%;
+  }
+
+  .imgPokemon{
+    margin-top: 30%;
+  }
+
+  .button_plus{
+    display: none;
+  }
+
+  header{
+    height: 100px;
+  }
+
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: flex;
+  }
+
+  .logo_container{
+    width: 70px;
+    margin-right: 50px;
+  }
+
+  .student{
+    width: 33.33%;
+  }
+
+  h4{
+    font-size: 2em;
+    margin-left: 50px;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .name{
+    font-size: 2em;
+  }
+
+/*---------- HOVER ---------- */
+
+  .student{
+    position: relative;
+  }
+
+  .profile{
+    background-color:#f65454;
+  }
+
+  .imgPokemon{
+    transform-origin: top left;
+    transform: scale(0,1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    width: 150px;
+  }
+
+  .student:hover .description .imgPokemon{
+    transform: scale(1,1);
+  }
+
+  .picture{
+    transition-property: opacity;
+    transition-duration: 0.5s;
+  }
+
+  .description{
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    padding: 5px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    font-size: 1em;
+  }
+
+  .student:hover .description{
+    opacity: 1;
+  }
+
+  .student:hover section .picture{
+    opacity: 0.2;
+  }
+
+}
+
+
+@media screen and (min-width : 1441px) {
+
+
+  .desc1{
+    margin-top: 8%;
+    font-size: 1.1em;
+  }
+
+  .desc1 div{
+    margin-top: 5%;
+  }
+
+  .previously{
+    margin-bottom: 20%;
+  }
+
+  .imgPokemon{
+    margin-top: 30%;
+  }
+
+  .button_plus{
+    display: none;
+  }
+
+  header{
+    height: 100px;
+  }
+
+  h3{
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  .area{
+    display: flex;
+  }
+
+  .logo_container{
+    width: 70px;
+    margin-right: 50px;
+  }
+
+  .student{
+    width: 33.33%;
+  }
+
+  h4{
+    font-size: 2em;
+    margin-left: 50px;
+  }
+
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+/*---------- HOVER ---------- */
+
+  .student{
+    position: relative;
+  }
+
+  .profile{
+    background-color:#f65454;
+  }
+
+  .imgPokemon{
+    transform-origin: top left;
+    transform: scale(0,1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    width: 150px;
+  }
+
+  .student:hover .description .imgPokemon{
+    transform: scale(1,1);
+  }
+
+  .picture{
+    transition-property: opacity;
+    transition-duration: 0.5s;
+  }
+
+  .name{
+    font-size: 2.5em;
+  }
+
+  .description{
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    padding: 5px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    font-size: 1em;
+  }
+
+  .student:hover .description{
+    opacity: 1;
+  }
+
+  .student:hover section .picture{
+    opacity: 0.2;
+  }
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f65454;
+}
+
+h4{
+  color:white;
+}
+
+main{
+  width: 100%;
+}
+
+.logo_container{
+  margin-left: auto;
+}
+
+.logo{
+  width: 100%;
+}
+
+.profile{
+  position: relative;
+}
+
+.picture{
+  width:100%;
+  display: block;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  display: flex;
+  justify-content: start;
+
+  position: absolute;
+  z-index: 2;
+  bottom: 0%;
+
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.imgPokemon{
+  width: 35%;
+}
+
+.description{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  font-weight: 100;
+}
+
+.desc1{
+  display: flex;
+  width: 45%;
+  color: white;
+}
+
+.desc1 div{
+  /*margin-top: 5%;*/
+}
+
+.deskTitle{
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
+.age{
+  margin-left: 4%;
+}
+
+.previously{
+  margin-left: 4%;
+  /*margin-bottom: 20%;*/
+}
+
+.grid-container{
+  display: grid;
+  height: 10px;
+  align-content: space-evenly;
+  grid-template-columns: 10px 10px 10px 10px 10px;
+  grid-gap: 20px;
+  padding: 8px;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+}
+
+.grid-container div{
+  text-align: center;
+  padding: 8px;
+  border-radius: 15px 50px 15px 50px;
+  width: 10px;
+  box-shadow: inset 2px 2px 2px black;
+  background: white;
+}
+
+
+.grid-container.zero div:nth-child(-n + 0){
+}
+
+.grid-container.one div:nth-child(-n + 1){
+  background: maroon;
+}
+
+.grid-container.two div:nth-child(-n + 2){
+  background: red;
+}
+
+.grid-container.three div:nth-child(-n + 3){
+  background: orange;
+}
+
+.grid-container.four div:nth-child(-n + 4){
+  background: yellow;
+}
+
+.grid-container.five div:nth-child(-n + 5){
+  background: green;
+}
+
+#description{
+  /*text-align: center;*/
+}
+
+
+.area{
+  padding-top: 10px;
+  height: 220px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.terminal{
+  height: 70%;
+  width: 70%;
+  background-color: rgb(64,64,64);
+  border-radius: 5px;
+}
+
+.mr-front-heading{
+  margin-top: 15px;
+  margin-left: 15px;
+  /*text-align: center;*/
+}
+
+.button{
+  background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+
+.typing{
+  margin-top: 50px;
+  font-family: Avenir Light , sans-serif;
+  color: white; /*rgb(51,113,255);*/
+  font-weight: bold;
+  font-size:large;
+}
+
+.typing span{
+  color: #f65454;
+}
+
+footer{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f65454;
+}
+
+footer p{
+  display: inline-flex;
+  margin: 10px;
+}
+
+.logo2 {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+}
+
+.footerlinks{
+  display: inline-flex;
+  align-items: center;
+}
+
+.logogithub{
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+}
