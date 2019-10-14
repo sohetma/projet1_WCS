@@ -1,0 +1,47 @@
+/* MOBILE FIRST */
+@media screen and (max-width : 375px) {
+
+  header{
+    background-color: blue;
+    display: flex;
+    justify-content:  space-between;
+    flex-grow: 1;
+    width: 100%;
+    padding: 5px;
+  }
+
+  header h4{
+    background-color: red;
+    font-size: 0.9em;
+  }
+
+header a{
+  margin-left: auto;
+  background-color: green;
+  width:30%;
+}
+
+  header img{
+    background-color: red;
+    margin-left: auto;
+    width: 100%;
+  }
+
+
+  .logo{
+    width: 20%;
+    height: auto;
+  }
+
+  .profile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .picture{
+    max-width: 100%;
+    height: auto;
+  }
+
+}
