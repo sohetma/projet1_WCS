@@ -635,25 +635,32 @@ main{
 
 
 .area{
-  padding-top: 10px;
-  height: 220px;
+  padding: 10px 0;
+  /*height: 220px;*/
   width: 100%;
   background-color: white;
   justify-content: center;
   align-items: center;
+  /*background-color: rgb(64,64,64);*/
 }
 
 .terminal{
   height: 70%;
   width: 70%;
   background-color: rgb(64,64,64);
-  border-radius: 5px;
+  /*border-radius: 5px;*/
+  display:flex;
 }
 
 .mr-front-heading{
   margin-top: 15px;
   margin-left: 15px;
-  /*text-align: center;*/
+  width:70%;
+  /*background-color: rgb(64,64,64);*/
+}
+
+.picture-header{
+  width:30%;
 }
 
 .button{

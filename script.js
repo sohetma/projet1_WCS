@@ -8,7 +8,6 @@ function myFunction(variable, param) {
   // Scroll to the picture of id selected
   var elem = document.getElementById(variable.id);
   elem.scrollIntoView({ behavior: 'smooth' });
-
 }
 
 
