@@ -1,0 +1,130 @@
+[
+        {
+        "pictureStudent" : "images/Antoine.jpg",
+        "name" : "Antoine",
+        "pokemon" : "images/pokemon_png_ok/Arcanin.png", 
+        "age" : 24,
+        "job" : "Etudiant"
+        },
+        {
+        "pictureStudent" : "images/Astrid.jpg",
+        "name" : "Astrid",
+        "pokemon" : "images/pokemon_png_ok/Tiplouf.png",
+        "age" : 32,
+        "job" : "Responsable digital e-commerce"
+        },
+        {
+        "pictureStudent" : "images/Benoit.jpg",
+        "name" : "Benoit",
+        "pokemon" : "images/pokemon_png_ok/Tortank.png",
+        "age" : 24,
+        "job" : "Etudiant éducateur spécialisé"
+        },
+        {
+        "pictureStudent" : "images/Celestine.jpg",
+        "name" : "Célestine",
+        "pokemon" : "images/pokemon_png_ok/Rondoudou.png",
+        "age" : 25,
+        "job" : "Etudiante"
+        },
+
+
+    {
+        "pictureStudent" : "images/Charles-Elie.jpg",
+        "name" : "Charles-Elie",
+        "pokemon" : "images/pokemon_png_ok/Entei.png",
+        "age" : 31,
+        "job" : "Numérisation de documents"
+    },
+    {
+        "pictureStudent" : "images/Dinu.jpg",
+        "name" : "Dinu",
+        "pokemon" : "images/pokemon_png_ok/Pikachu.png",
+        "age" : 37,
+        "job" : "Musicien"
+    },
+    {
+        "pictureStudent" : "images/Etienne.jpg",
+        "name" : "Etienne",
+        "pokemon" : "images/pokemon_png_ok/Mewtwo.png",
+        "age" : 25,
+        "job" : "Designer graphique"
+    },
+    {
+        "pictureStudent" : "images/Francois.jpg",
+        "name" : "François",
+        "pokemon" : "images/pokemon_png_ok/Fantominus.png",
+        "age" : 35,
+        "job" : "Directeur d'une agence de recrutement"
+    },
+    {
+        "pictureStudent" : "images/Ghislain.jpg",
+        "name" : "Ghislain",
+        "pokemon" : "images/pokemon_png_ok/Pikachu.png",
+        "age" : 56,
+        "job" : "Plombier"
+    },
+    {
+        "pictureStudent" : "images/Gregory.jpg",
+        "name" : "Grégory",
+        "pokemon" : "images/pokemon_png_ok/Ronflex.png",
+        "age" : 35,
+        "job" : "Siesteur professionnel"
+    },
+    {
+        "pictureStudent" : "images/Marine.jpg",
+        "name" : "Marine",
+        "pokemon" : "images/pokemon_png_ok/Rondoudou.png",
+        "age" : "mystery",
+        "job" : "Journalisme - Immobilier"
+    },
+    {
+        "pictureStudent" : "images/Marouan.jpg",
+        "name" : "Marouan",
+        "pokemon" : "images/pokemon_png_ok/Salameche.png",
+        "age" : 29,
+        "job" : "Grande distribution"
+    },
+    {
+        "pictureStudent" : "images/Maxime.jpg",
+        "name" : "Maxime",
+        "pokemon" : "images/pokemon_png_ok/Carapuce.png",
+        "age" : 24,
+        "job" : "Ingénieur-Entrepreneur"
+    },
+    {
+        "pictureStudent" : "images/Nicolas.jpg",
+        "name" : "Nicolas",
+        "pokemon" : "images/pokemon_png_ok/Ectoplasma.png",
+        "age" : 24,
+        "job" : "Etudiant"
+    },
+    {
+        "pictureStudent" : "images/Pierre.jpg",
+        "name" : "Pierre",
+        "pokemon" : "images/pokemon_png_ok/Psykokwak.png",
+        "age" : 25,
+        "job" : "Voyageur"
+    },
+    {
+        "pictureStudent" : "images/Steve.jpg",
+        "name" : "Steve",
+        "pokemon" : "images/pokemon_png_ok/Salameche.png",
+        "age" : 33,
+        "job" : "Consultant business-analyst"
+    },
+    {
+        "pictureStudent" : "images/Sydney.jpg",
+        "name" : "Sydney",
+        "pokemon" : "images/pokemon_png_ok/Dracolosse.png",
+        "age" : 24,
+        "job" : "Consiller touristique"
+    },
+    {
+        "pictureStudent" : "images/William.jpg",
+        "name" : "William",
+        "pokemon" : "images/pokemon_png_ok/Mew.png",
+        "age" : 26,
+        "job" : "Horeca"
+    }
+]
