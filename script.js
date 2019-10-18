@@ -26,3 +26,44 @@ function myFunction2()
     backDelay:5000,
   });
 }
+
+function loadJSON(callback) {   
+  var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+  xobj.open('GET', 'students.json', true); 
+  xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
+        }
+  };
+  xobj.send(null);  
+}
+
+
+pictures = document.getElementsByClassName('picture');
+names = document.getElementsByClassName('name');
+pokemons = document.getElementsByClassName('imgPokemon');
+ages = document.getElementsByClassName('age');
+jobs = document.getElementsByClassName('previously');
+
+function init() {
+  loadJSON(function(response) {
+     // Parse JSON string into object
+     var arrayStudents = JSON.parse(response);
+     for(let i = 0; i < pictures.length ; i++){
+      //console.log(`${i} : ${pictures[i].src}`);
+    
+      pictures[i].src = arrayStudents[i].pictureStudent;
+      pokemons[i].src = arrayStudents[i].pokemon;
+      ages[i].innerHTML = arrayStudents[i].age;
+      jobs[i].innerHTML = arrayStudents[i].job;
+      names[i].innerHTML = arrayStudents[i].name;
+    }
+  });
+}
+
+init();
+
+
+
+
