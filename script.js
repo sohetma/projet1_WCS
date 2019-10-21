@@ -1,137 +1,226 @@
+// Initialisation variables, objects
+nbStudents = 18; // number of students in the classs
 arrayStudents = [
         {
         "pictureStudent" : "images/Antoine.jpg",
         "name" : "Antoine",
         "pokemon" : "images/pokemon_png_ok/Arcanin.png",
         "age" : 24,
-        "job" : "Etudiant"
+        "job" : "Etudiant",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "one"
+          }
         },
         {
         "pictureStudent" : "images/Astrid.jpg",
         "name" : "Astrid",
         "pokemon" : "images/pokemon_png_ok/Tiplouf.png",
         "age" : 32,
-        "job" : "Responsable digital e-commerce"
+        "job" : "Responsable digital e-commerce",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "two"
+          }
         },
         {
         "pictureStudent" : "images/Benoit.jpg",
         "name" : "Benoit",
         "pokemon" : "images/pokemon_png_ok/Tortank.png",
         "age" : 24,
-        "job" : "Etudiant éducateur spécialisé"
+        "job" : "Etudiant éducateur spécialisé",
+        "skills" : {
+          "HTML" : "two",
+          "CSS" : "two",
+          "github" : "one"
+          }
         },
         {
         "pictureStudent" : "images/Celestine.jpg",
         "name" : "Célestine",
         "pokemon" : "images/pokemon_png_ok/Rondoudou.png",
         "age" : 25,
-        "job" : "Etudiante"
+        "job" : "Etudiante",
+        "skills" : {
+          "HTML" : "four",
+          "CSS" : "four",
+          "github" : "three"
+          }
         },
     {
         "pictureStudent" : "images/Charles-Elie.jpg",
         "name" : "Charles-Elie",
         "pokemon" : "images/pokemon_png_ok/Entei.png",
         "age" : 31,
-        "job" : "Numérisation de documents"
+        "job" : "Numérisation de documents",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "two"
+          }
     },
     {
         "pictureStudent" : "images/Dinu.jpg",
         "name" : "Dinu",
         "pokemon" : "images/pokemon_png_ok/Pikachu.png",
         "age" : 37,
-        "job" : "Musicien"
+        "job" : "Musicien",
+        "skills" : {
+          "HTML" : "two",
+          "CSS" : "three",
+          "github" : "two"
+          }
     },
     {
         "pictureStudent" : "images/Etienne.jpg",
         "name" : "Etienne",
         "pokemon" : "images/pokemon_png_ok/Mewtwo.png",
         "age" : 25,
-        "job" : "Designer graphique"
+        "job" : "Designer graphique",
+        "skills" : {
+          "HTML" : "five",
+          "CSS" : "five",
+          "github" : "four"
+          }
     },
     {
         "pictureStudent" : "images/Francois.jpg",
         "name" : "François",
         "pokemon" : "images/pokemon_png_ok/Fantominus.png",
         "age" : 35,
-        "job" : "Directeur d'une agence de recrutement"
+        "job" : "Directeur d'une agence de recrutement",
+        "skills" : {
+          "HTML" : "zero",
+          "CSS" : "zero",
+          "github" : "zero"
+          }
     },
     {
         "pictureStudent" : "images/Ghislain.jpg",
         "name" : "Ghislain",
         "pokemon" : "images/pokemon_png_ok/Pikachu.png",
         "age" : 56,
-        "job" : "Plombier"
+        "job" : "Plombier",
+        "skills" : {
+          "HTML" : "one",
+          "CSS" : "one",
+          "github" : "one"
+          }
     },
     {
         "pictureStudent" : "images/Gregory.jpg",
         "name" : "Grégory",
         "pokemon" : "images/pokemon_png_ok/Ronflex.png",
         "age" : 35,
-        "job" : "Siesteur professionnel"
+        "job" : "Siesteur professionnel",
+        "skills" : {
+          "HTML" : "four",
+          "CSS" : "four",
+          "github" : "three"
+          }
     },
     {
         "pictureStudent" : "images/Marine.jpg",
         "name" : "Marine",
         "pokemon" : "images/pokemon_png_ok/Rondoudou.png",
         "age" : "mystery",
-        "job" : "Journalisme - Immobilier"
+        "job" : "Journalisme - Immobilier",
+        "skills" : {
+          "HTML" : "one",
+          "CSS" : "one",
+          "github" : "one"
+          }
     },
     {
         "pictureStudent" : "images/Marouan.jpg",
         "name" : "Marouan",
         "pokemon" : "images/pokemon_png_ok/Salameche.png",
         "age" : 29,
-        "job" : "Grande distribution"
+        "job" : "Grande distribution",
+        "skills" : {
+          "HTML" : "two",
+          "CSS" : "two",
+          "github" : "one"
+          }
     },
     {
         "pictureStudent" : "images/Maxime.jpg",
         "name" : "Maxime",
         "pokemon" : "images/pokemon_png_ok/Carapuce.png",
         "age" : 24,
-        "job" : "Ingénieur-Entrepreneur"
+        "job" : "Ingénieur-Entrepreneur",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "four"
+          }
     },
     {
         "pictureStudent" : "images/Nicolas.jpg",
         "name" : "Nicolas",
         "pokemon" : "images/pokemon_png_ok/Ectoplasma.png",
         "age" : 24,
-        "job" : "Etudiant"
+        "job" : "Etudiant",
+        "skills" : {
+          "HTML" : "two",
+          "CSS" : "two",
+          "github" : "one"
+          }
     },
     {
         "pictureStudent" : "images/Pierre.jpg",
         "name" : "Pierre",
         "pokemon" : "images/pokemon_png_ok/Psykokwak.png",
         "age" : 25,
-        "job" : "Voyageur"
+        "job" : "Voyageur",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "two"
+          }
     },
     {
         "pictureStudent" : "images/Steve.jpg",
         "name" : "Steve",
         "pokemon" : "images/pokemon_png_ok/Salameche.png",
         "age" : 33,
-        "job" : "Consultant business-analyst"
+        "job" : "Consultant business-analyst",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "three"
+          }
     },
     {
         "pictureStudent" : "images/Sydney.jpg",
         "name" : "Sydney",
         "pokemon" : "images/pokemon_png_ok/Dracolosse.png",
         "age" : 24,
-        "job" : "Consiller touristique"
+        "job" : "Consiller touristique",
+        "skills" : {
+          "HTML" : "three",
+          "CSS" : "three",
+          "github" : "two"
+          }
     },
     {
         "pictureStudent" : "images/William.jpg",
         "name" : "William",
         "pokemon" : "images/pokemon_png_ok/Mew.png",
         "age" : 26,
-        "job" : "Horeca"
+        "job" : "Horeca",
+        "skills" : {
+          "HTML" : "two",
+          "CSS" : "one",
+          "github" : "two"
+          }
     }
 ]
 
 
-
-
-
-function myFunction(variable, param) {
+myFunction = (variable, param) => {
   //console.log(param.id);
   var element = document.getElementById(param.id);
   //console.log(element);
@@ -144,18 +233,26 @@ function myFunction(variable, param) {
 }
 
 
-// creation arrays
+// creation arrays and idSelector
 classTest = document.getElementsByClassName("description vision on");
 classProfile = document.getElementsByClassName('profile');
 classStudent = document.getElementsByClassName('student');
+mainStudents = document.getElementById('mainS');
 
 
-// CALL function
-initStudent();
-insertStudent();
+initMain = n => {
+  for (let j = 0; j < n ; j++){
+    let node = document.createElement("div");
+    node.classList.add("student");
+    if(!mainStudents){
+      console.log('erreur node null')}
+    else{
+       mainStudents.appendChild(node);
+     }
+  }
+}
 
-
-function initStudent(){
+initStudent = () => {
   for(let i = 0; i < classStudent.length ; i++){
     classStudent[i].insertAdjacentHTML('afterbegin',`
     <!-- Picture + name -->
@@ -166,12 +263,8 @@ function initStudent(){
   }
 }
 
-
-function insertStudent(){
-  //console.log(arrayStudents[1].name);
-  //console.log(classProfile.length);
+insertStudent = () => {
   for(let i = 0; i < classProfile.length ; i++){
-     console.log(i)
      classProfile[i].insertAdjacentHTML("afterbegin",`
      <img class="picture" id="picture${i}" src=${arrayStudents[i].pictureStudent} alt="Portrait of ${arrayStudents[i].name}" onclick="myFunction(picture${i}, description${i})">
      <article class="name">
@@ -179,13 +272,11 @@ function insertStudent(){
      </article>
      <img class="button_plus" src="images/plus.png" alt="button_plus" onclick="myFunction(picture${i}, description${i})">
      `);
-
      addDescription(arrayStudents[i],i);
    }
 }
 
-
-function addDescription(object,index){
+addDescription = (object,index) => {
   classTest[index].insertAdjacentHTML("afterbegin",`
        <img class="imgPokemon" src=${object.pokemon} class="imgPokemon" alt="pokemon">
        <div class="desc1">
@@ -196,7 +287,7 @@ function addDescription(object,index){
             <div><p class="previously">${object.job}</p></div>
           <div class="skills">
             <div class="deskTitle">HTML</div>
-            <div class="grid-container three">
+            <div class="grid-container ${object.skills.HTML}">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -204,7 +295,7 @@ function addDescription(object,index){
                 <div></div>
             </div>
             <div class="deskTitle">CSS</div>
-            <div class="grid-container three">
+            <div class="grid-container ${object.skills.CSS}">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -212,17 +303,23 @@ function addDescription(object,index){
                 <div></div>
               </div>
             <div class="deskTitle">Github</div>
-            <div class="grid-container two">
-                <div></div
+            <div class="grid-container ${object.skills.github}">
                 <div></div>
                 <div></div>
                 <div></div>
                 <div></div>
-              </div>
+                <div></div>
+            </div>
           </div>
         </ul>
-        </div>`);
+      </div>`);
  }
+
+
+// CALL function : generation of DOM
+initMain(nbStudents);
+initStudent();
+insertStudent();
 
 
 
@@ -238,8 +335,7 @@ function loadJSON(callback) {
           callback(xobj.responseText);
         }
   };
-
-  xobj.send(); // null
+  xobj.send(null);
 }
 
 function init() {
