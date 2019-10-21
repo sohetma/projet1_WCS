@@ -232,7 +232,6 @@ myFunction = (variable, param) => {
   elem.scrollIntoView({ behavior: 'smooth' });
 }
 
-
 // creation arrays and idSelector
 classTest = document.getElementsByClassName("description vision on");
 classProfile = document.getElementsByClassName('profile');
@@ -245,7 +244,8 @@ initMain = n => {
     let node = document.createElement("div");
     node.classList.add("student");
     if(!mainStudents){
-      console.log('erreur node null')}
+      console.log('erreur node null');
+    }
     else{
        mainStudents.appendChild(node);
      }
@@ -316,10 +316,119 @@ addDescription = (object,index) => {
  }
 
 
-// CALL function : generation of DOM
-initMain(nbStudents);
-initStudent();
-insertStudent();
+ // CALL function : generation of DOM
+ initMain(nbStudents);
+ initStudent();
+ insertStudent();
+
+
+/*
+
+// TEST ANIM CSS
+
+var anim = document.getElementsByClassName('testAnimation');
+
+console.log(anim);
+
+anim.onmouseover = () => {
+  anim.classList.remove('animated');
+  console.log(anim);
+}
+
+anim.onmousout = () => {
+  anim.classList.add('animated');
+  console.log(anim);
+}
+
+*/
+
+
+/*
+
+var tempStudentName = studentName;
+
+// EVERYONE HAS A CHANCE
+
+for(var i=0 ; i<18 ; i++){
+
+  console.log('itération: '+i);
+  var selected = getRandomInt(tempStudentName.length);
+  console.log(selected);
+
+  console.log(tempStudentName[selected]);
+  console.log(tempStudentName);
+  tempStudentName.splice(selected,1);
+
+  selected = getRandomInt(tempStudentName.length)
+}
+
+*/
+
+
+//ANIM INTRO
+
+var heroPopupAnim = document.getElementsByClassName('hero-popup')[0];
+var heroTitle = document.getElementsByClassName('hero-title')[0];
+
+setTimeout(animIntro, 1500);
+
+var animIntro = () =>{
+  heroTitle.classList.add('anim-intro');
+  heroPopupAnim.classList.add('anim-intro');
+}
+
+
+
+
+// ANIM PICTURE RANDOM
+
+var studentName = ['Antoine', 'Astrid', 'Benoit', 'Celestine', 'Charles-Elie', 'Dinu', 'Etienne', 'Francois', 'Ghislain', 'Gregory', 'Marine', 'Marouan', 'Maxime', 'Nicolas', 'Pierre', 'Steve', 'Sydney', 'William'];
+
+var getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
+setInterval(changeStudent, 5000);
+
+var changeStudent = () => {
+  var actualStudent = getRandomInt(studentName.length);
+  var picRandom = document.getElementById('pictureRandom');
+  if(!picRandom){
+    console.log(picRandom);
+  }
+  else{
+    picRandom.src = `images/${studentName[actualStudent]}.jpg`;
+    picRandom.alt = `Portrait of ${studentName[actualStudent]}`;
+  }
+
+}
+
+changeStudent();
+
+
+// BUTTON HERO HEADER
+
+var buttonHero = document.getElementsByClassName('hero-invite')[0];
+var heroAnchor = document.getElementById('heroAnchor');
+
+buttonHero.onclick = () => {
+  heroAnchor.scrollIntoView({ behavior: 'smooth' });
+};
+
+
+// TEST ANIM
+
+var terminalAnim = document.getElementsByClassName('terminal')[0];
+var pictureHeaderAnim = document.getElementsByClassName('picture-header')[0];
+
+heroTitle.onclick = () => {
+  pictureHeaderAnim.classList.add('anim');
+  terminalAnim.classList.add('anim');
+};
+
+
+// VAR TEXT TYPING
+
+var textStudent = ["<span> @wilder :~/Etienne$</span> What?! Wilders can code this after 2 weeks only ?  <BR /> <BR /> <span>@wilder :~/Sydney$</span> WAW ! <BR />  <BR /> <span>@wilder :~/max$</span>  Yes thanks to js, Git/Github, Odyssey, Etienne, Coffee ... and a great team ;) ", "The Yearbook 2019 ! Have fun "]
+
+
 
 
 
@@ -354,11 +463,10 @@ function myFunction2()
 
 
   var typed = new Typed('.typing',{
-    strings: ["<span> @wilder :~/Etienne$</span> What?! Wilders can code this after 2 weeks only ?  <BR /> <BR /> <span>@wilder :~/Sydney$</span> WAW ! <BR />  <BR /> <span>@wilder :~/max$</span>  Yes thanks to js, Git/Github, Odyssey, Etienne, Coffee ... and a great team ;) ","The Yearbook 2019 ! Have fun "],
+    strings: textStudent,
     loop:true,
-    typeSpeed:35,
+    typeSpeed:50,
     backSpeed:0,
-    backDelay:5000,
+    backDelay:0,
   });
-
 }
