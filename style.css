@@ -655,7 +655,7 @@ main{
   text-shadow: 2px 2px 3px black;
   color: white;
 
-  background-image: url(/images/LaScene.jpg);
+  background-image: url(images/LaScene.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
