@@ -290,6 +290,7 @@ insertStudent = () => {
      `);
      addDescription(arrayStudents[i],i);
    }
+
 }
 
 addDescription = (object,index) => {
@@ -302,34 +303,62 @@ addDescription = (object,index) => {
             <div class="deskTitle">Previously</div>
             <div><p class="previously">${object.job}</p></div>
           <div class="skills">
-            <div class="deskTitle">HTML</div>
-            <div class="grid-container ${object.skills.HTML}">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="deskTitle">CSS</div>
-            <div class="grid-container ${object.skills.CSS}">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            <div class="deskTitle">Github</div>
-            <div class="grid-container ${object.skills.github}">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
           </div>
         </ul>
       </div>`);
  }
+
+
+
+addSkillsToWilder = (wilder) => {
+   const { HTML, CSS , github } = wilder.skills;
+   valueSkills = [HTML,CSS,github];
+   const component = `<div class="deskTitle">HTML</div>
+                 <div class="grid-container ${valueSkills[0]}">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                 </div>
+                 <div class="deskTitle">CSS</div>
+                 <div class="grid-container ${valueSkills[1]}">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                </div>
+                <div class="deskTitle">Github</div>
+                <div class="grid-container ${valueSkills[2]}">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+               </div>`;
+ console.log(component);
+   return component;
+ }
+
+
+
+ renderWildersListComponentSkills = (wilders) => {
+   let i = -1;
+   wilders.map( wilder =>  {
+     //console.log(wilder);
+     let component = `
+         ${addSkillsToWilder(wilder)}
+     `
+     i++;
+     return skillsStudents[i].insertAdjacentHTML('beforeend', component);
+
+   })
+ }
+
+
+
+
 
 var animIntro = () =>{
    heroTitle.classList.add('anim-intro');
@@ -388,6 +417,11 @@ textStudents = textStudent(nbStudents);
 initMain(nbStudents);
 initStudent();
 insertStudent();
+const skillsStudents = document.getElementsByClassName('skills');
+console.log(skillsStudents);
+renderWildersListComponentSkills(arrayStudents);
+
+
 
 // animation of students
 changeStudent();
@@ -442,7 +476,6 @@ function animation()
     onDestroy: function(self) { prettyLog('onDestroy ' + self) }
   });
 }
-
 
 
 

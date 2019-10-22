@@ -591,6 +591,11 @@ main{
   font-weight: bold;
 }
 
+.deskTitleLevel{
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
 .age{
   margin-left: 4%;
 }
