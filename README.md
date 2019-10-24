@@ -2,4 +2,4 @@
 
 The yearbook of Wilders 2019 : site disponilble [ici](https://sohetma.github.io/projet1_WCS/)
 
-Coded with : HTML, CSS, JS
+Code in HTML, CSS, JS
