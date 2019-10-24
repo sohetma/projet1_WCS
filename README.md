@@ -1,10 +1,5 @@
-# projet1_WCS
-<<<<<<< HEAD
-The yearbook of Wilders : site disponilble [ici](https://sohetma.github.io/projet1_WCS/)
+# projet1 Wild Code School
 
-HTML, CSS, JS
+The yearbook of Wilders 2019 : site disponilble [ici](https://sohetma.github.io/projet1_WCS/)
 
-
-=======
-Yearbook
->>>>>>> a943b22acef40731fb3f03e82f1604cff49b0a41
+Coded with : HTML, CSS, JS
