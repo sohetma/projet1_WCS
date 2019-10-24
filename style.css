@@ -2,6 +2,35 @@
 last update 08/10 */
 
 
+/*.testAnimation{
+  width:200px;
+  height:200px;
+  background-color: blue;
+
+}
+
+.testAnimation.animated{
+  animation: maPremiereAnimation 1s linear alternate infinite;
+}
+
+@keyframes maPremiereAnimation{
+  from{
+    transform: translateX(0);
+  }
+
+  to{
+    transform: translateX(300px);
+  }
+}
+*/
+
+
+@keyframes animPopup{
+
+
+}
+
+
 @media screen and (max-width : 400px) {
 
 
@@ -10,15 +39,15 @@ last update 08/10 */
       font-size: 0.8em;
       margin-bottom: 10%;
     }
-    
+
     .desc1 div{
       margin-top: 3%;
     }
-    
+
     .previously{
       margin-bottom: 10%;
     }
-    
+
     .imgPokemon{
       margin-top: 23%;
     }
@@ -56,7 +85,7 @@ last update 08/10 */
     main{
       flex-direction: column;
     }
-  
+
 
     .name{
       font-size: 1.5em;
@@ -92,25 +121,25 @@ last update 08/10 */
 
 
 @media screen and (min-width : 401px) and (max-width : 700px) {
-  
+
   .desc1{
     margin-top: 3%;
     font-size: 0.8em;
   }
-  
+
   .desc1 div{
     margin-top: 3%;
   }
-  
+
   .previously{
     margin-bottom: 10%;
   }
-  
+
   .imgPokemon{
     margin-top: 23%;
   }
-  
-  
+
+
   header{
     height: 50px;
   }
@@ -299,6 +328,7 @@ last update 08/10 */
   header{
     height: 100px;
   }
+
 
   h3{
     margin-left: 15%;
@@ -567,11 +597,12 @@ main{
   color: white;
 }
 
-.desc1 div{
-  /*margin-top: 5%;*/
+.deskTitle{
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
 }
 
-.deskTitle{
+.deskTitleLevel{
   text-shadow: 2px 2px 2px black;
   font-weight: bold;
 }
@@ -629,32 +660,134 @@ main{
   background: green;
 }
 
-#description{
-  /*text-align: center;*/
-}
 
+
+/* ========== Hero Header ========== */
 
 .area{
-  padding-top: 10px;
-  height: 220px;
   width: 100%;
-  background-color: white;
+  height: 90vh;
+
+  text-shadow: 2px 2px 3px black;
+  color: white;
+
+  background-image: url(images/LaScene.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-title{
+  position: absolute;
+  top: 40%;
+
+  font-weight: bold;
+  font-size: 4.7em;
+
+  transition-property: top, font-size;
+  transition-duration: 0.8s;
+}
+
+.hero-title.anim-intro{
+  font-size: 4em;
+  top:10%;
+}
+
+.hero-popup{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  transform: scale(1, 0);
+
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  transition-property: flex-direction, transform;
+  transition-delay: 2.6s, 1s;
+  transition-duration: 0s, 0.5s;
+}
+
+.hero-popup.anim-intro{
+  transform: scale(1, 1);
+}
+
+.hero-popup.anim{
+  flex-direction: row-reverse;
+}
+
+.hero-invite{
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  bottom: 5%;
+
+  font-size: 1.3em;
+}
+
+.hero-invite:hover{
+  cursor: pointer;
+}
+
+.hero-arrow{
+  width: 50px;
+  height:20px;
+  filter: drop-shadow(2px 2px 3px black);
+}
+
+.overlay{
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+  /*background-color: rgba(246,84,84,0.3);*/
+  background-color: rgba(0,0,0,0.4);
 }
 
 .terminal{
-  height: 70%;
-  width: 70%;
-  background-color: rgb(64,64,64);
-  border-radius: 5px;
+  width: 80%;
+  display:flex;
+  padding: 10px;
+
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 
-.mr-front-heading{
-  margin-top: 15px;
-  margin-left: 15px;
-  /*text-align: center;*/
+.picture-header{
+  width:20%;
+  transition-property: transform;
+  transition-duration: 1.5s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in-out
+
 }
+
+.picture-header.anim{
+  transform: translate(-410%, 0);
+}
+
+.terminal.anim{
+  transform: scale(1, 0);
+}
+
+.picture-header img{
+  border-radius: 0 10px 10px 0;
+  transition-property: border-radius;
+  transition-duration: 1.5s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in-out
+}
+
+.picture-header.anim img{
+  border-radius: 10px 0 0 10px;
+}
+
+
+
+
 
 .button{
   background-image: url("https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
